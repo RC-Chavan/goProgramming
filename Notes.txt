@@ -1,0 +1,62 @@
+Why golang?
+
+1. Fast compilation
+2. Memory management
+3. Garbage collector
+4. Concurrent programming
+5. Distributed programming
+6. High performance
+7. Security
+8. Performance
+9. Productivity
+10. Community
+
+
+Go lang is compiled language, no need the JVM like vm for running the code. if you have go installed go internally handled everything.
+Go tools can run file directly, without VM.
+Executables are exported at compiled times, go gives you options for multiples OS i.e. windows, linux, mac.
+
+where to use golang
+System Apps to web Apps - cloud
+Already in production  - google, kubernetes, docker, etc.
+
+* Dont bring baggage
+
+Object Orientes ?
+YES and NO
+very easy to understand
+
+
+Misses out many features of other languages
+1. Operator overloading
+2. Method overloading / Overriding
+3. try/catch is also missing - you never need that.
+4. No inheritance - no classes
+5. lexer is doing lot of work.
+
+
+Lexer:- Lexer is a process where to programming language checks for the grammer of any language if the semicolon OR the variable names or the rules are followed properly or nor 
+this is done before pre-compiling.
+If you mentioned the semi colon in the go, go intelsence removes it.
+
+Types :- 
+case sentitive; almost
+varibale types shold be known in advance.
+Everything is a Type.
+
+Types :- 
+Strings
+Bool
+integer - uint8, uint64, int8, int64, uintptr
+Floating - float32, float64
+Complex
+
+Array
+Slices
+Maps
+pointers
+Structs
+
+Functions
+Channels
+
